@@ -1,7 +1,7 @@
 
 body {
     text-align:center;
-    font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: Raleway, sans-serif; 
 }
 
 button,table,#game,body,td {
@@ -14,7 +14,8 @@ button,table,#game,body,td {
 }
 
 #gameboard,.leg {
-    background:#00f;
+    background:#FFF;
+    box-shadow:0px 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 #gameboard,.leg,#gameboard td,#r {
@@ -36,10 +37,12 @@ button,table,#game,body,td {
 
 #gameboard .red {
     background:#f00;
+    box-shadow:0px 0px 6px rgba(0, 0, 0, 0.4);
 }
 
 #gameboard .yellow {
     background:#ff0;
+    box-shadow:0px 0px 6px rgba(0, 0, 0, 0.4);
 }
 
 #r,#gameboard td {
